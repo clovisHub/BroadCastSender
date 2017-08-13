@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         sendItent.setAction("com.example.sendbroadcast");
         sendItent.addFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
-        sendItent.putExtra("Sent", "tortue");
+        sendItent.putExtra("Sent", "torta");
         sendBroadcast(sendItent); // different from your above.
     }
 }
